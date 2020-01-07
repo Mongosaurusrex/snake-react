@@ -1,0 +1,21 @@
+.gameover-wrapper {
+  font-family: "arcade";
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameover-heading {
+  font-size: 40px;
+}
+.gameover-input {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameover-input > input {
+}

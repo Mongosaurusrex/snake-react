@@ -1,0 +1,17 @@
+.snake-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "arcade";
+}
+.grid {
+  border: 5px dashed #2e4f00;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

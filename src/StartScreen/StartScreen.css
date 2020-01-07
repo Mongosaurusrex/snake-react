@@ -1,0 +1,12 @@
+.start_root {
+  height: 100%;
+  width: 100%;
+  font-family: "arcade";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+}

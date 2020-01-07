@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "arcade";
+  src: url("./fonts/ARCADE_I.TTF");
+}
+
+body {
+  background-color: #9aca06;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

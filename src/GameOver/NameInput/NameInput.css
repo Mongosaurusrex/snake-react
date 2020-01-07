@@ -1,0 +1,40 @@
+.input-text-wrapper {
+  margin-top: 5px;
+  display: flex;
+}
+.inputText > input {
+  font-family: arcade;
+  background-color: #9aca06;
+  border: none;
+  border-bottom: 1px dashed;
+}
+.loader {
+  margin-left: 10px;
+  border: 2px solid #9aca06; 
+  border-top: 2px solid black; 
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 2s linear infinite;
+}
+.try-again {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: blinker 1.5s linear infinite; 
+}
+.done {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
