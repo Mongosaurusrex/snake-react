@@ -4,7 +4,7 @@ import rootReducer from './Reducers/index';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://dygant.com/api/snake',
+  baseURL: 'https://api.dygant.com/snake',
   headers: {
     'Content-Type': 'application/json', 
   },
