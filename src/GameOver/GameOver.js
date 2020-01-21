@@ -1,9 +1,9 @@
-import React from 'react';
-import './GameOver.css';
-import NameInput from './NameInput/NameInput';
+import React from "react";
+import "./GameOver.css";
+import NameInput from "./NameInput/NameInput";
 class GameOver extends React.Component {
   render() {
-    const {score, sendScore, sendScoreStatus} = this.props;
+    const { score, sendScore, sendScoreStatus } = this.props;
     return (
       <div className="gameover-wrapper">
         <div className="gameover-heading">Too bad!</div>
@@ -12,7 +12,7 @@ class GameOver extends React.Component {
           <span className="score">{score}</span>
         </div>
         <div className="gameover-input">
-          Save your score?
+          {sendScoreStatus !== "done" ? "Save your score?" : ""}
           <div className="input-fields">
             <NameInput sendScore={sendScore} status={sendScoreStatus} />
           </div>
